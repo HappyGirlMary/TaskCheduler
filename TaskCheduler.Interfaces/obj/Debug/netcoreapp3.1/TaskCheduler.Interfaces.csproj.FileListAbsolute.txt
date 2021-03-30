@@ -1,0 +1,13 @@
+D:\Cours\TaskCheduler\TaskCheduler.Interfaces\bin\Debug\netcoreapp3.1\TaskCheduler.Interfaces.exe
+D:\Cours\TaskCheduler\TaskCheduler.Interfaces\bin\Debug\netcoreapp3.1\TaskCheduler.Interfaces.deps.json
+D:\Cours\TaskCheduler\TaskCheduler.Interfaces\bin\Debug\netcoreapp3.1\TaskCheduler.Interfaces.runtimeconfig.json
+D:\Cours\TaskCheduler\TaskCheduler.Interfaces\bin\Debug\netcoreapp3.1\TaskCheduler.Interfaces.runtimeconfig.dev.json
+D:\Cours\TaskCheduler\TaskCheduler.Interfaces\bin\Debug\netcoreapp3.1\TaskCheduler.Interfaces.dll
+D:\Cours\TaskCheduler\TaskCheduler.Interfaces\bin\Debug\netcoreapp3.1\TaskCheduler.Interfaces.pdb
+D:\Cours\TaskCheduler\TaskCheduler.Interfaces\obj\Debug\netcoreapp3.1\TaskCheduler.Interfaces.csprojAssemblyReference.cache
+D:\Cours\TaskCheduler\TaskCheduler.Interfaces\obj\Debug\netcoreapp3.1\TaskCheduler.Interfaces.AssemblyInfoInputs.cache
+D:\Cours\TaskCheduler\TaskCheduler.Interfaces\obj\Debug\netcoreapp3.1\TaskCheduler.Interfaces.AssemblyInfo.cs
+D:\Cours\TaskCheduler\TaskCheduler.Interfaces\obj\Debug\netcoreapp3.1\TaskCheduler.Interfaces.csproj.CoreCompileInputs.cache
+D:\Cours\TaskCheduler\TaskCheduler.Interfaces\obj\Debug\netcoreapp3.1\TaskCheduler.Interfaces.dll
+D:\Cours\TaskCheduler\TaskCheduler.Interfaces\obj\Debug\netcoreapp3.1\TaskCheduler.Interfaces.pdb
+D:\Cours\TaskCheduler\TaskCheduler.Interfaces\obj\Debug\netcoreapp3.1\TaskCheduler.Interfaces.genruntimeconfig.cache

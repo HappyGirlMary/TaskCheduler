@@ -1,0 +1,95 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TaskCheduler/1.0.0": {
+        "dependencies": {
+          "Core.Interfaces": "1.0.0",
+          "Core.Logic.Implementations": "1.0.0",
+          "Task.Cheduler.Interfaces": "1.0.0",
+          "Task.Cheduler.Logic.Implementations": "1.0.0"
+        },
+        "runtime": {
+          "TaskCheduler.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Core.Interfaces/1.0.0": {
+        "runtime": {
+          "Core.Interfaces.dll": {}
+        }
+      },
+      "Core.Logic.Implementations/1.0.0": {
+        "dependencies": {
+          "Core.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Core.Logic.Implementations.dll": {}
+        }
+      },
+      "Task.Cheduler.Interfaces/1.0.0": {
+        "dependencies": {
+          "Core.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Task.Cheduler.Interfaces.dll": {}
+        }
+      },
+      "Task.Cheduler.Logic.Implementations/1.0.0": {
+        "dependencies": {
+          "Core.Interfaces": "1.0.0",
+          "Newtonsoft.Json": "13.0.1",
+          "Task.Cheduler.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Task.Cheduler.Logic.Implementations.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TaskCheduler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Core.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core.Logic.Implementations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Task.Cheduler.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Task.Cheduler.Logic.Implementations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,8 @@
+D:\Cours\TaskCheduler\Logic.Implementations\bin\Debug\netcoreapp3.1\Logic.Implementations.deps.json
+D:\Cours\TaskCheduler\Logic.Implementations\bin\Debug\netcoreapp3.1\Logic.Implementations.dll
+D:\Cours\TaskCheduler\Logic.Implementations\bin\Debug\netcoreapp3.1\Logic.Implementations.pdb
+D:\Cours\TaskCheduler\Logic.Implementations\obj\Debug\netcoreapp3.1\Logic.Implementations.AssemblyInfoInputs.cache
+D:\Cours\TaskCheduler\Logic.Implementations\obj\Debug\netcoreapp3.1\Logic.Implementations.AssemblyInfo.cs
+D:\Cours\TaskCheduler\Logic.Implementations\obj\Debug\netcoreapp3.1\Logic.Implementations.csproj.CoreCompileInputs.cache
+D:\Cours\TaskCheduler\Logic.Implementations\obj\Debug\netcoreapp3.1\Logic.Implementations.dll
+D:\Cours\TaskCheduler\Logic.Implementations\obj\Debug\netcoreapp3.1\Logic.Implementations.pdb

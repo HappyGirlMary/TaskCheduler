@@ -1,0 +1,199 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Core.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Core.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.Interfaces.dll": {}
+        }
+      },
+      "Core.Logic.Implementations/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Core.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Core.Logic.Implementations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.Logic.Implementations.dll": {}
+        }
+      },
+      "Task.Cheduler.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Core.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Task.Cheduler.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Task.Cheduler.Interfaces.dll": {}
+        }
+      },
+      "Task.Cheduler.Logic.Implementations/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Core.Interfaces": "1.0.0",
+          "Newtonsoft.Json": "13.0.1",
+          "Task.Cheduler.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Task.Cheduler.Logic.Implementations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Task.Cheduler.Logic.Implementations.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Core.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../General.Interfaces/Core.Interfaces.csproj",
+      "msbuildProject": "../General.Interfaces/Core.Interfaces.csproj"
+    },
+    "Core.Logic.Implementations/1.0.0": {
+      "type": "project",
+      "path": "../General.Logic.Implementation/Core.Logic.Implementations.csproj",
+      "msbuildProject": "../General.Logic.Implementation/Core.Logic.Implementations.csproj"
+    },
+    "Task.Cheduler.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Interfaces/Task.Cheduler.Interfaces.csproj",
+      "msbuildProject": "../Interfaces/Task.Cheduler.Interfaces.csproj"
+    },
+    "Task.Cheduler.Logic.Implementations/1.0.0": {
+      "type": "project",
+      "path": "../Logic.Implementations/Task.Cheduler.Logic.Implementations.csproj",
+      "msbuildProject": "../Logic.Implementations/Task.Cheduler.Logic.Implementations.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Core.Interfaces >= 1.0.0",
+      "Core.Logic.Implementations >= 1.0.0",
+      "Task.Cheduler.Interfaces >= 1.0.0",
+      "Task.Cheduler.Logic.Implementations >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\777\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Cours\\TaskCheduler\\TaskCheduler\\TaskCheduler.csproj",
+      "projectName": "TaskCheduler",
+      "projectPath": "D:\\Cours\\TaskCheduler\\TaskCheduler\\TaskCheduler.csproj",
+      "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
+      "outputPath": "D:\\Cours\\TaskCheduler\\TaskCheduler\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\Cours\\TaskCheduler\\General.Interfaces\\Core.Interfaces.csproj": {
+              "projectPath": "D:\\Cours\\TaskCheduler\\General.Interfaces\\Core.Interfaces.csproj"
+            },
+            "D:\\Cours\\TaskCheduler\\General.Logic.Implementation\\Core.Logic.Implementations.csproj": {
+              "projectPath": "D:\\Cours\\TaskCheduler\\General.Logic.Implementation\\Core.Logic.Implementations.csproj"
+            },
+            "D:\\Cours\\TaskCheduler\\Interfaces\\Task.Cheduler.Interfaces.csproj": {
+              "projectPath": "D:\\Cours\\TaskCheduler\\Interfaces\\Task.Cheduler.Interfaces.csproj"
+            },
+            "D:\\Cours\\TaskCheduler\\Logic.Implementations\\Task.Cheduler.Logic.Implementations.csproj": {
+              "projectPath": "D:\\Cours\\TaskCheduler\\Logic.Implementations\\Task.Cheduler.Logic.Implementations.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

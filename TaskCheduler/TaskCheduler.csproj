@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\General.Interfaces\Core.Interfaces.csproj" />
+    <ProjectReference Include="..\General.Logic.Implementation\Core.Logic.Implementations.csproj" />
+    <ProjectReference Include="..\Interfaces\Task.Cheduler.Interfaces.csproj" />
+    <ProjectReference Include="..\Logic.Implementations\Task.Cheduler.Logic.Implementations.csproj" />
+  </ItemGroup>
+
+</Project>

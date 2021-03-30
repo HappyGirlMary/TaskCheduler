@@ -1,0 +1,12 @@
+D:\Cours\TaskCheduler\General.Logic.Implementation\bin\Debug\netcoreapp3.1\Core.Logic.Implementations.deps.json
+D:\Cours\TaskCheduler\General.Logic.Implementation\bin\Debug\netcoreapp3.1\Core.Logic.Implementations.dll
+D:\Cours\TaskCheduler\General.Logic.Implementation\bin\Debug\netcoreapp3.1\Core.Logic.Implementations.pdb
+D:\Cours\TaskCheduler\General.Logic.Implementation\bin\Debug\netcoreapp3.1\Core.Interfaces.dll
+D:\Cours\TaskCheduler\General.Logic.Implementation\bin\Debug\netcoreapp3.1\Core.Interfaces.pdb
+D:\Cours\TaskCheduler\General.Logic.Implementation\obj\Debug\netcoreapp3.1\Core.Logic.Implementations.csprojAssemblyReference.cache
+D:\Cours\TaskCheduler\General.Logic.Implementation\obj\Debug\netcoreapp3.1\Core.Logic.Implementations.AssemblyInfoInputs.cache
+D:\Cours\TaskCheduler\General.Logic.Implementation\obj\Debug\netcoreapp3.1\Core.Logic.Implementations.AssemblyInfo.cs
+D:\Cours\TaskCheduler\General.Logic.Implementation\obj\Debug\netcoreapp3.1\Core.Logic.Implementations.csproj.CoreCompileInputs.cache
+D:\Cours\TaskCheduler\General.Logic.Implementation\obj\Debug\netcoreapp3.1\Core.Logic.Implementations.csproj.CopyComplete
+D:\Cours\TaskCheduler\General.Logic.Implementation\obj\Debug\netcoreapp3.1\Core.Logic.Implementations.dll
+D:\Cours\TaskCheduler\General.Logic.Implementation\obj\Debug\netcoreapp3.1\Core.Logic.Implementations.pdb

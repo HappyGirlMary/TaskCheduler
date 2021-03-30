@@ -1,0 +1,332 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Cours\\TaskCheduler\\TaskCheduler\\TaskCheduler.csproj": {}
+  },
+  "projects": {
+    "D:\\Cours\\TaskCheduler\\General.Interfaces\\Core.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cours\\TaskCheduler\\General.Interfaces\\Core.Interfaces.csproj",
+        "projectName": "Core.Interfaces",
+        "projectPath": "D:\\Cours\\TaskCheduler\\General.Interfaces\\Core.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
+        "outputPath": "D:\\Cours\\TaskCheduler\\General.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Cours\\TaskCheduler\\General.Logic.Implementation\\Core.Logic.Implementations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cours\\TaskCheduler\\General.Logic.Implementation\\Core.Logic.Implementations.csproj",
+        "projectName": "Core.Logic.Implementations",
+        "projectPath": "D:\\Cours\\TaskCheduler\\General.Logic.Implementation\\Core.Logic.Implementations.csproj",
+        "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
+        "outputPath": "D:\\Cours\\TaskCheduler\\General.Logic.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Cours\\TaskCheduler\\General.Interfaces\\Core.Interfaces.csproj": {
+                "projectPath": "D:\\Cours\\TaskCheduler\\General.Interfaces\\Core.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Cours\\TaskCheduler\\Interfaces\\Task.Cheduler.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cours\\TaskCheduler\\Interfaces\\Task.Cheduler.Interfaces.csproj",
+        "projectName": "Task.Cheduler.Interfaces",
+        "projectPath": "D:\\Cours\\TaskCheduler\\Interfaces\\Task.Cheduler.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
+        "outputPath": "D:\\Cours\\TaskCheduler\\Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Cours\\TaskCheduler\\General.Interfaces\\Core.Interfaces.csproj": {
+                "projectPath": "D:\\Cours\\TaskCheduler\\General.Interfaces\\Core.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Cours\\TaskCheduler\\Logic.Implementations\\Task.Cheduler.Logic.Implementations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cours\\TaskCheduler\\Logic.Implementations\\Task.Cheduler.Logic.Implementations.csproj",
+        "projectName": "Task.Cheduler.Logic.Implementations",
+        "projectPath": "D:\\Cours\\TaskCheduler\\Logic.Implementations\\Task.Cheduler.Logic.Implementations.csproj",
+        "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
+        "outputPath": "D:\\Cours\\TaskCheduler\\Logic.Implementations\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Cours\\TaskCheduler\\General.Interfaces\\Core.Interfaces.csproj": {
+                "projectPath": "D:\\Cours\\TaskCheduler\\General.Interfaces\\Core.Interfaces.csproj"
+              },
+              "D:\\Cours\\TaskCheduler\\Interfaces\\Task.Cheduler.Interfaces.csproj": {
+                "projectPath": "D:\\Cours\\TaskCheduler\\Interfaces\\Task.Cheduler.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Cours\\TaskCheduler\\TaskCheduler\\TaskCheduler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cours\\TaskCheduler\\TaskCheduler\\TaskCheduler.csproj",
+        "projectName": "TaskCheduler",
+        "projectPath": "D:\\Cours\\TaskCheduler\\TaskCheduler\\TaskCheduler.csproj",
+        "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
+        "outputPath": "D:\\Cours\\TaskCheduler\\TaskCheduler\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Cours\\TaskCheduler\\General.Interfaces\\Core.Interfaces.csproj": {
+                "projectPath": "D:\\Cours\\TaskCheduler\\General.Interfaces\\Core.Interfaces.csproj"
+              },
+              "D:\\Cours\\TaskCheduler\\General.Logic.Implementation\\Core.Logic.Implementations.csproj": {
+                "projectPath": "D:\\Cours\\TaskCheduler\\General.Logic.Implementation\\Core.Logic.Implementations.csproj"
+              },
+              "D:\\Cours\\TaskCheduler\\Interfaces\\Task.Cheduler.Interfaces.csproj": {
+                "projectPath": "D:\\Cours\\TaskCheduler\\Interfaces\\Task.Cheduler.Interfaces.csproj"
+              },
+              "D:\\Cours\\TaskCheduler\\Logic.Implementations\\Task.Cheduler.Logic.Implementations.csproj": {
+                "projectPath": "D:\\Cours\\TaskCheduler\\Logic.Implementations\\Task.Cheduler.Logic.Implementations.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
